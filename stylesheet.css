@@ -11,20 +11,23 @@ my color set
 
 
 * {
-  box-sizing: border-box;
-  /*do not change the background color on this!*/
-
 }
 body {
   /* font-family: 'Comfortaa',cursive; */
   padding: 10px;
   background: #F3F7D4;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header/Blog Title */
+.page { /*because putting this on the body somehow causes the title to display next to the page... */
+
+}
+
 .header {
-  display: flex;
+  display: flex; /*YOU CAN'T GET RID OF THIS!*/
   font-family: 'Comfortaa',cursive;
   padding: 30px;
   padding-right: 50px;
@@ -41,21 +44,20 @@ body {
 }
 
 .header p {
-  font-size: 40px;
   display: flex;
+  font-size: 40px;
   color: #093426;
   justify-content: center;
 }
 
 .logo {
-  display: flex;
   justify-content: flex-start;
 }
 
  .title { /* for some reason making this a flex container breaks it :/ */
   /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+  flex-direction: column; DO NOT TOUCH*/
+  justify-content: center;
   margin: 0px;
 }
 
