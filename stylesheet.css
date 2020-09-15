@@ -16,14 +16,16 @@ my color set
 
 }
 body {
-  font-family: 'Comfortaa',cursive;
+  /* font-family: 'Comfortaa',cursive; */
   padding: 10px;
   background: #F3F7D4;
+  font-family: sans-serif;
 }
 
 /* Header/Blog Title */
 .header {
   display: flex;
+  font-family: 'Comfortaa',cursive;
   padding: 30px;
   padding-right: 50px;
   flex-direction: row;
@@ -50,16 +52,18 @@ body {
   justify-content: flex-start;
 }
 
-.title {
-  display: flex;
+ .title { /* for some reason making this a flex container breaks it :/ */
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
+  margin: 0px;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #093426;
+  font-family: 'Comfortaa',cursive;
 }
 
 /* Style the topnav links */
