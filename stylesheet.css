@@ -1,5 +1,3 @@
-/*i used w3 schools tutorial on css to make this
-anything that uses flex containers is my work. fuck learning the other ways*/
 /*
 my color set
 1: #F3F7D4 lighest
@@ -7,8 +5,7 @@ my color set
 3: #7FBD32 green
 4: #448D76 gas green :P
 5: #093426 darkest
-*/
-
+**i wish i could set variables..**/
 
 * {
 }
@@ -63,7 +60,8 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
   background-color: #093426;
   font-family: 'Comfortaa',cursive;
 }
@@ -73,7 +71,7 @@ body {
   float: left;
   display: block;
   color: #F3F7D4;
-  text-align: center;
+  /* text-align: center; */
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -84,40 +82,27 @@ body {
   color: #093426;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
+.leftlinks{
+  display: flex;
+  justify-content: flex-start;
+}
+.rightlinks{
+
 }
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #F3F7D4;
-  padding-left: 20px;
+/*The Row business, behold my naming schemes >:(*/
+.widebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  height: 250px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: #F3F7D4;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.baritem {
+  padding: 50px;
+  width: auto;
+  background-color: #CDE534
 }
 
 /* Footer */
@@ -125,7 +110,7 @@ body {
   padding: 20px;
   text-align: center;
   background: #448D76;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
