@@ -64,6 +64,7 @@ body {
   justify-content: space-between;
   background-color: #093426;
   font-family: 'Comfortaa',cursive;
+  margin-bottom: 10px
 }
 
 /* Style the topnav links */
@@ -90,27 +91,51 @@ body {
 
 }
 
-/*The Row business, behold my naming schemes >:(*/
+/*this is for a nav bar if you decide to try that*/
+/* .row{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.main{
+  flex: 70%;
+}
+
+.sidebar{
+  flex: 30%
+}
+*/
+
 .widebar {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  align-items: stretch;
   padding: 10px;
   height: 250px;
 }
 
 .baritem {
-  padding: 50px;
-  width: auto;
-  background-color: #CDE534
+  flex-grow: 1;
+  padding: 10px 30px;
+  border: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #CDE534;
+  border-width: medium;
+  margin: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: white;
 }
 
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: #448D76;
-  /* margin-top: 20px; */
+  background: #093426;
+  margin-top: 10px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
