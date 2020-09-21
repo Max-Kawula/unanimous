@@ -29,6 +29,7 @@ img{
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
+  color: #093426;
 }
 
 .productrow > div {
@@ -46,4 +47,5 @@ img{
   object-fit: cover;
   flex-basis: 0;
   flex-grow: 2;
+  max-width: 50%;
 }
