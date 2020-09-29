@@ -49,3 +49,8 @@ img{
   flex-grow: 2;
   max-width: 50%;
 }
+
+.megatext { /*i swear i make things worse when doing this*/
+  margin:50px;
+  font-size:30px;
+}

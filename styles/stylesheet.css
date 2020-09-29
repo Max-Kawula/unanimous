@@ -31,12 +31,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   /* background: #CDE534; */
-  background-image: url('/images/humanbeings.jpg');
+  background-image: url('../images/humanbeings.jpg');
+  background-size: cover;
 }
 
 .header h1 {
   font-size: 80px;
-  color: #448D76;
+  color: white;
   /* border: 5px;
   border-color: #7FBD32; */ /*how does this work?*/
 }
@@ -44,7 +45,7 @@ body {
 .header p {
   display: flex;
   font-size: 40px;
-  color: #093426;
+  color: white;
   justify-content: center;
 }
 
