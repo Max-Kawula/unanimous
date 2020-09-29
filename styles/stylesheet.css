@@ -30,7 +30,8 @@ body {
   padding-right: 50px;
   flex-direction: row;
   justify-content: space-between;
-  background: #CDE534;
+  /* background: #CDE534; */
+  background-image: url('/images/humanbeings.jpg');
 }
 
 .header h1 {
@@ -120,6 +121,7 @@ body {
 }
 
 .baritem {
+  flex-basis: 0;
   flex-grow: 1;
   padding: 10px 30px;
   border: 10px;
