@@ -39,7 +39,7 @@ img{
   margin: 50px;
   padding: auto;
   text-align: center;
-  color: #093426;
+  /* color: #093426; this line messed up the color inheritance. learn your lesson >:( */
 }
 
 .productrow img {
@@ -53,4 +53,16 @@ img{
 .megatext { /*i swear i make things worse when doing this*/
   margin:50px;
   font-size:30px;
+}
+
+.jobbox { /*this is one of the best class names yet*/
+  background-color:#7FBD32;
+  /* border-radius: 15px; */
+  color:white;
+}
+
+.jobbox > div {
+  color: #093426; /*i feel like there is a better way to do this :/ */
+  background-color: white;
+  padding: 10px
 }
