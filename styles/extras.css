@@ -59,6 +59,7 @@ img{
   background-color:#7FBD32;
   /* border-radius: 15px; */
   color:white;
+  border-radius: 10px
 }
 
 .jobbox > div {
