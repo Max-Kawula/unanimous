@@ -1,0 +1,35 @@
+*{
+
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  object-fit: cover;
+  height: auto;
+  border-radius: 20px;
+  max-width: 100%
+}
+
+.headthing { /*i used .header already so i need a new name*/
+  display: flex; /*im a slut for flexbox*/
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  align-items: stretch;
+}
+
+.headthing img {
+
+}
+
+#imagequote {
+  text-align: center;
+  font-style: italic;
+}
+
+#logo {
+
+}
