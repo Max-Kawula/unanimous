@@ -7,11 +7,16 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
 
-.firstline h1 {
+/* .firstline h1 {
   max-width: 50%
 }
+
+.firtline h2 {
+  max-width: 50%;
+} */
 
 .secondline {
   display: flex;
