@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 img {
   object-fit: cover;
   height: auto;
@@ -20,6 +24,8 @@ img {
   padding-bottom: 20px;
   align-items: stretch;
 }
+
+.headthing
 
 .headthing img {
 
